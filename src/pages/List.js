@@ -14,8 +14,9 @@ const List = () => {
                     <col />
                     <col />
                 </colgroup>
+                <tbody>
                 <tr>
-                    <td colSpan='5' className="alignrgt">
+                    <td colSpan='5' className="alignrgt" style={{background: "white"}}>
                         <button><NavLink to='/write'>새글쓰기</NavLink></button>
                     </td>
                 </tr>
@@ -132,6 +133,7 @@ const List = () => {
                     <td>2023-01-10</td>
                     <td>777</td>
                 </tr>
+                </tbody>
             </table>
             <ul className="pagenation">
                 <li className="prev">이전</li>

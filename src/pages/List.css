@@ -3,7 +3,6 @@
 .board { width: 700px; margin: 0 auto; table-layout: fixed; }
 .board td { text-align: center; padding: 7px; }
 .board th { padding: 7px; border-top: 1px solid black; }
-.board tr:first-child td { background: white; }
 .board td:nth-child(2) { white-space: nowrap; overflow: hidden;
     text-overflow: ellipsis; }
 .board td:nth-child(odd) { background: lightblue; }

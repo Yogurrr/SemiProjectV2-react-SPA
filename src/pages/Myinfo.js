@@ -6,6 +6,7 @@ const Myinfo = () => {
         <div>
             <h3>회원정보</h3>
             <table className="myinfo">
+                <tbody>
                 <tr>
                     <td>아이디</td>
                     <td>yogurrr</td>
@@ -22,6 +23,7 @@ const Myinfo = () => {
                     <td>가입일</td>
                     <td>2023-01-10 17:54:33</td>
                 </tr>
+                </tbody>
             </table>
         </div>
     )
